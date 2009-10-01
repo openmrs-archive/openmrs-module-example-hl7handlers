@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//OpenMRS//DTD OpenMRS Config 1.0//EN" "http://resources.openmrs.org/doctype/config-1.0.dtd">
+
+<module configVersion="1.0">
+	
+	<!-- Example HL7 Handlers Properties -->
+	<id>examplehl7handlers</id>
+	<name>Example HL7 Handlers</name>
+	<version>0.1</version>
+	<package>org.openmrs.module.@MODULE_ID@</package>
+	<author>ben</author>
+	<description>
+		Demonstrates how to add new HAPI hl7 parsers to openmrs
+	</description>
+	<activator>@MODULE_PACKAGE@.ExampleHl7HandlersModuleActivator</activator>
+	<!-- /Example HL7 Handlers Properties -->
+	
+</module>
